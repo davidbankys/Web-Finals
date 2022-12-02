@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/Users/davidbankys/.nuget/packages/": {}
+    "/Users/bhimani/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/davidbankys/Documents/GitHub/Web-Finals/WebProjectFinals/Library/Library.csproj",
+      "projectUniqueName": "/Users/bhimani/Desktop/Web-Finals/WebProjectFinals/Library/Library.csproj",
       "projectName": "Library",
-      "projectPath": "/Users/davidbankys/Documents/GitHub/Web-Finals/WebProjectFinals/Library/Library.csproj",
-      "packagesPath": "/Users/davidbankys/.nuget/packages/",
-      "outputPath": "/Users/davidbankys/Documents/GitHub/Web-Finals/WebProjectFinals/Library/obj/",
+      "projectPath": "/Users/bhimani/Desktop/Web-Finals/WebProjectFinals/Library/Library.csproj",
+      "packagesPath": "/Users/bhimani/.nuget/packages/",
+      "outputPath": "/Users/bhimani/Desktop/Web-Finals/WebProjectFinals/Library/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/davidbankys/.nuget/NuGet/NuGet.Config"
+        "/Users/bhimani/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
       }
     }
   }
