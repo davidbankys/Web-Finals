@@ -47,5 +47,17 @@ public class JobTest
         {
             options.Cookie.Name = ".career.connect.session";
         });
+        services.AddAuthentication()
+               .AddCookie(options =>
+               {
+                   options.Cookie.Name = ".career.connect.cookie";
+                   options.ExpireTimeSpan = TimeSpan.FromMinutes(60);
+                   options.SlidingExpiration = true;
+                   options.LoginPath = "/Account/LogIn";
+               });
 
+        services.AddLogging();
+
+        return services.BuildServiceProvider();
     }
+}
