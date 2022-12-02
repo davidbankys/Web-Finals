@@ -1,6 +1,32 @@
 ﻿<Properties StartupConfiguration="{A5D2512F-A953-4215-8DE4-3CC8B6790AA4}|Default">
   <MonoDevelop.Ide.ItemProperties.Library FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.WebProjectFinals FirstBuild="True" PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.WebProjectFinals FirstBuild="True" PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.ItemProperties.UnitTest FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebProjectFinals/Views/Account/Login.cshtml">
+    <Files>
+      <File FileName="WebProjectFinals/Views/Account/Register.cshtml" Line="1" Column="1" />
+      <File FileName="WebProjectFinals/Views/Account/Login.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WebProjectFinals" expanded="True">
+            <Node name="WebProjectFinals" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="Account">
+                  <Node name="Login.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

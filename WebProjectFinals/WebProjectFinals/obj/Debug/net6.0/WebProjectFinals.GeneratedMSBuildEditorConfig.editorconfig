@@ -5,40 +5,49 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebProjectFinals
 build_property.RootNamespace = WebProjectFinals
-build_property.ProjectDir = /Users/bhimani/Desktop/Web-Finals/WebProjectFinals/WebProjectFinals/
+build_property.ProjectDir = /Users/rushabhshah/Desktop/WebDevelopment/Web-Finals/WebProjectFinals/WebProjectFinals/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/bhimani/Desktop/Web-Finals/WebProjectFinals/WebProjectFinals
+build_property.MSBuildProjectDirectory = /Users/rushabhshah/Desktop/WebDevelopment/Web-Finals/WebProjectFinals/WebProjectFinals
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/bhimani/Desktop/Web-Finals/WebProjectFinals/WebProjectFinals/Pages/Error.cshtml]
+[/Users/rushabhshah/Desktop/WebDevelopment/Web-Finals/WebProjectFinals/WebProjectFinals/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bhimani/Desktop/Web-Finals/WebProjectFinals/WebProjectFinals/Pages/Index.cshtml]
+[/Users/rushabhshah/Desktop/WebDevelopment/Web-Finals/WebProjectFinals/WebProjectFinals/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bhimani/Desktop/Web-Finals/WebProjectFinals/WebProjectFinals/Pages/Privacy.cshtml]
+[/Users/rushabhshah/Desktop/WebDevelopment/Web-Finals/WebProjectFinals/WebProjectFinals/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bhimani/Desktop/Web-Finals/WebProjectFinals/WebProjectFinals/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/rushabhshah/Desktop/WebDevelopment/Web-Finals/WebProjectFinals/WebProjectFinals/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bhimani/Desktop/Web-Finals/WebProjectFinals/WebProjectFinals/Pages/_ViewImports.cshtml]
+[/Users/rushabhshah/Desktop/WebDevelopment/Web-Finals/WebProjectFinals/WebProjectFinals/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bhimani/Desktop/Web-Finals/WebProjectFinals/WebProjectFinals/Pages/_ViewStart.cshtml]
+[/Users/rushabhshah/Desktop/WebDevelopment/Web-Finals/WebProjectFinals/WebProjectFinals/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bhimani/Desktop/Web-Finals/WebProjectFinals/WebProjectFinals/Pages/Shared/_Layout.cshtml]
+[/Users/rushabhshah/Desktop/WebDevelopment/Web-Finals/WebProjectFinals/WebProjectFinals/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rushabhshah/Desktop/WebDevelopment/Web-Finals/WebProjectFinals/WebProjectFinals/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rushabhshah/Desktop/WebDevelopment/Web-Finals/WebProjectFinals/WebProjectFinals/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-vbecdy8787
