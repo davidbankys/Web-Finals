@@ -6336,19 +6336,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/rushabhshah/.nuget/packages/": {}
+    "/Users/davidbankys/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rushabhshah/Desktop/WebDevelopment/Web-Finals/WebProjectFinals/UnitTest/UnitTest.csproj",
+      "projectUniqueName": "/Users/davidbankys/Documents/GitHub/Web-Finals/WebProjectFinals/UnitTest/UnitTest.csproj",
       "projectName": "UnitTest",
-      "projectPath": "/Users/rushabhshah/Desktop/WebDevelopment/Web-Finals/WebProjectFinals/UnitTest/UnitTest.csproj",
-      "packagesPath": "/Users/rushabhshah/.nuget/packages/",
-      "outputPath": "/Users/rushabhshah/Desktop/WebDevelopment/Web-Finals/WebProjectFinals/UnitTest/obj/",
+      "projectPath": "/Users/davidbankys/Documents/GitHub/Web-Finals/WebProjectFinals/UnitTest/UnitTest.csproj",
+      "packagesPath": "/Users/davidbankys/.nuget/packages/",
+      "outputPath": "/Users/davidbankys/Documents/GitHub/Web-Finals/WebProjectFinals/UnitTest/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/rushabhshah/.nuget/NuGet/NuGet.Config"
+        "/Users/davidbankys/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"

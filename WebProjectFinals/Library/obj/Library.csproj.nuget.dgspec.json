@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/rushabhshah/Desktop/WebDevelopment/Web-Finals/WebProjectFinals/Library/Library.csproj": {}
+    "/Users/davidbankys/Documents/GitHub/Web-Finals/WebProjectFinals/Library/Library.csproj": {}
   },
   "projects": {
-    "/Users/rushabhshah/Desktop/WebDevelopment/Web-Finals/WebProjectFinals/Library/Library.csproj": {
+    "/Users/davidbankys/Documents/GitHub/Web-Finals/WebProjectFinals/Library/Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/rushabhshah/Desktop/WebDevelopment/Web-Finals/WebProjectFinals/Library/Library.csproj",
+        "projectUniqueName": "/Users/davidbankys/Documents/GitHub/Web-Finals/WebProjectFinals/Library/Library.csproj",
         "projectName": "Library",
-        "projectPath": "/Users/rushabhshah/Desktop/WebDevelopment/Web-Finals/WebProjectFinals/Library/Library.csproj",
-        "packagesPath": "/Users/rushabhshah/.nuget/packages/",
-        "outputPath": "/Users/rushabhshah/Desktop/WebDevelopment/Web-Finals/WebProjectFinals/Library/obj/",
+        "projectPath": "/Users/davidbankys/Documents/GitHub/Web-Finals/WebProjectFinals/Library/Library.csproj",
+        "packagesPath": "/Users/davidbankys/.nuget/packages/",
+        "outputPath": "/Users/davidbankys/Documents/GitHub/Web-Finals/WebProjectFinals/Library/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/rushabhshah/.nuget/NuGet/NuGet.Config"
+          "/Users/davidbankys/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
