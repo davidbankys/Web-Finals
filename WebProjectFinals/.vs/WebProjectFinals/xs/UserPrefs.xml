@@ -1,4 +1,5 @@
 ﻿<Properties StartupConfiguration="{A5D2512F-A953-4215-8DE4-3CC8B6790AA4}|Default">
+  <MonoDevelop.Ide.ItemProperties.WebProjectFinals FirstBuild="True" PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.WebProjectFinals FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.UnitTest FirstBuild="True" />
 </Properties>
