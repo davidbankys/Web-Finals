@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/Users/bhimani/.nuget/packages/": {}
+    "/Users/rushabhshah/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/bhimani/Desktop/Web-Finals/WebProjectFinals/WebProjectFinals/WebProjectFinals.csproj",
+      "projectUniqueName": "/Users/rushabhshah/Desktop/WebDevelopment/Web-Finals/WebProjectFinals/WebProjectFinals/WebProjectFinals.csproj",
       "projectName": "WebProjectFinals",
-      "projectPath": "/Users/bhimani/Desktop/Web-Finals/WebProjectFinals/WebProjectFinals/WebProjectFinals.csproj",
-      "packagesPath": "/Users/bhimani/.nuget/packages/",
-      "outputPath": "/Users/bhimani/Desktop/Web-Finals/WebProjectFinals/WebProjectFinals/obj/",
+      "projectPath": "/Users/rushabhshah/Desktop/WebDevelopment/Web-Finals/WebProjectFinals/WebProjectFinals/WebProjectFinals.csproj",
+      "packagesPath": "/Users/rushabhshah/.nuget/packages/",
+      "outputPath": "/Users/rushabhshah/Desktop/WebDevelopment/Web-Finals/WebProjectFinals/WebProjectFinals/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/bhimani/.nuget/NuGet/NuGet.Config"
+        "/Users/rushabhshah/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -63,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }
