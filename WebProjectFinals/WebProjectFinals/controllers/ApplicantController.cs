@@ -8,13 +8,27 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebProjectFinals.controllers
 {
-    public class ApplicantController : Controller
+    public class ApplicantController : BaseController
     {
-        // GET: /<controller>/
-        public IActionResult Index()
+        private readonly UserService _userService;
+
+        public ApplicantController(UserService userService)
         {
-            return View();
+            _userService = userService;
+        }
+
+        public async Task<IActionResult> Index(ApplicantsVm vm)
+        {
+            var result = await _userService.GetApplicantsAsync();
+
+            if (!result.Success || result.Data == null)
+            {
+                return BadRequest();
+            }
+
+            vm.Applicants = result.Data;
+
+            return View(vm);
         }
     }
 }
-
