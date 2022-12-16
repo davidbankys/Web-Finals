@@ -1,0 +1,30 @@
+﻿@model UpdateResumeVm
+
+@{
+    ViewData["Title"] = "Create/Update Resume";
+}
+
+<div class="card">
+    <div class="card-body">
+        <form asp-action="Update" enctype="multipart/form-data" method="post">
+            <div class="row g-3">
+                @if (Model.Id == Guid.Empty)
+                {
+                    <div class="col-md-5">
+                        <label class="form-label" asp-for="File"></label>
+                        <input class="form-control" asp-for="File"/>
+                        <span class="text-danger" asp-validation-for="File"></span>
+                    </div>
+                }
+                <div class="col-md-7">
+                    <label class="form-label" asp-for="Name"></label>
+                    <input class="form-control" asp-for="Name"/>
+                    <span class="text-danger" asp-validation-for="Name"></span>
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-primary" type="submit">Save</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,7 @@
+﻿@model Resume
+@{
+    ViewData["Title"] = "View Resume";
+}
+
+<div class="fw-bold">@Model.Name</div>
+<a asp-action="Download" target="_blank" asp-route-Id="@Model.Id">Download resume</a>

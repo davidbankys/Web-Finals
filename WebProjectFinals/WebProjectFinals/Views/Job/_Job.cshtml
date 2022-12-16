@@ -1,0 +1,28 @@
+﻿@using CareerConnect.Infrastructure.Service
+@model Job
+@inject UserInformation _userInformation
+
+<div class="shadow my-2 p-3">
+    <div class="h4 fw-bold">@Model.Name</div>
+    <div>Posted date: <span class="">@Model.CreatedDate</span> by <span class="fw-bold">@Model.CreatedBy?.Name</span></div>
+    <div>Address: @Model.Address</div>
+    <div>Job Description: </div>
+    <div>@Model.Description</div>
+    <div class="text-info">Salary range: <i class="fas fa-fw fa-dollar-sign"></i> @(Model.SalaryRangeFrom ) - <i class="fas fa-fw fa-dollar-sign"></i> @(Model.SalaryRangeTo)</div>
+    <hr/>
+    @if (_userInformation.IsAuthenticated && _userInformation.UserType == UserType.Employer && Model.CreatedById == _userInformation.EmployerId)
+    {
+        if (Model.ApplyingResumes.Any())
+        {
+            <div class="text-primary fw-bold text-uppercase my-2"> Applying count: @Model.ApplyingResumes.Count</div>
+        }
+    }
+
+    <a class="btn btn-primary me-2" asp-controller="Job" asp-action="View" asp-route-Id="@Model.Id">View more<i class="fas fa-arrow-right fa-fw ms-2"></i></a>
+    @if (_userInformation.IsAuthenticated && _userInformation.UserType == UserType.Employer && Model.CreatedById == _userInformation.EmployerId)
+    {
+        <a class="btn btn-secondary me-2" asp-controller="Job" asp-action="Update" asp-route-Id="@Model.Id">Update <i class="fas fa-edit fa-fw ms-2"></i></a>
+        <a class="btn btn-danger" asp-controller="Job" asp-action="Delete" asp-route-Id="@Model.Id">Delete <i class="fas fa-trash fa-fw ms-2"></i></a>
+    }
+
+</div>

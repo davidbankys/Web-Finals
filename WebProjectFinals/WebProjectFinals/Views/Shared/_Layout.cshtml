@@ -1,0 +1,107 @@
+﻿@using CareerConnect.Infrastructure.Service
+@inject UserInformation _user
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Career Connect</title>
+    <link rel="stylesheet" href="~/lib/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/CareerConnect.styles.css" asp-append-version="true" />
+</head>
+<body class="overflow-hidden">
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand text-uppercase text-primary fw-bolder" asp-controller="Job" asp-action="Index">Career Connect</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        @if (_user.IsAuthenticated)
+                        {
+                            @if (_user.UserType == UserType.Admin)
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link btn btn-sm btn-primary text-white mx-2" asp-controller="Job" asp-action="Manage">Manage Jobs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link btn btn-sm btn-primary text-white mx-2" asp-controller="Applicant" asp-action="Index">Applicant List</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link btn btn-sm btn-primary text-white mx-2" asp-controller="Employer" asp-action="Index">Employer List</a>
+                                </li>
+                            }
+
+                            @if (_user.UserType == UserType.Employer)
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link btn btn-sm btn-primary text-white mx-2" asp-controller="Job" asp-action="Manage">Manage Jobs</a>
+                                </li>
+                            }
+
+                            @if (_user.UserType == UserType.Applicant)
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-white btn btn-sm btn-primary mx-2" asp-controller="Resume" asp-action="Index">My Resume</a>
+                                </li>
+                            }
+                        }
+                    </ul>
+                    <ul class="navbar-nav flex-grow-1 justify-content-end">
+                        <li class="nav-item">
+                            @if (_user.IsAuthenticated)
+                            {
+                                <span>Welcome <span class="fw-bold">@_user.AccountUsername</span></span>
+                                <a class="mx-2" asp-controller="Account" asp-action="Logout">Logout</a>
+                            }
+                            else
+                            {
+                                <a class="me-3" asp-controller="Account" asp-action="Register">Register</a>
+                                <a asp-controller="Account" asp-action="Login">Login</a>
+                            }
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <div class="container overflow-auto" style="height: calc(100vh - 115px)">
+        <main role="main" class="pb-3">
+            @if (ViewData["Message"] != null)
+            {
+                <div id="alert" class="alert alert-primary" role="alert">
+                    @ViewData["Message"]
+                </div>
+            }
+            @RenderBody()
+        </main>
+    </div>
+    <footer class="border-top footer text-muted position-fixed" style="bottom: 0">
+        <div class="vw-100 text-center p-2 small">
+            &copy; 2022 - Career Connect
+        </div>
+    </footer>
+    <script src="~/lib/fontawesome/js/all.min.js" asp-append-version="true"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var alert = document.getElementById("alert");
+            setTimeout(function() {
+                    alert.remove();
+                },
+                5000);
+        });
+    </script>
+</body>
+</html>

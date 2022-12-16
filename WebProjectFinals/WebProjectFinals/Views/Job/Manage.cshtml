@@ -1,0 +1,23 @@
+﻿@model JobsVm
+@{
+    ViewData["Title"] = "Manage jobs";
+}
+<div class="card my-3">
+    <div class="card-body">
+        <div> <a class="btn btn-outline-primary" asp-action="Create">Create new job <i class="fas fa-plus ms-2"></i></a></div>
+        <div class="list-group">
+            @if (Model.Jobs.Any())
+            {
+                foreach (var job in Model.Jobs)
+                {
+                    <partial name="_Job" Model="job"/>
+                }
+            }
+            else
+            {
+                <div class="my-3">No job found!</div>
+            }
+        </div>
+    </div>
+</div>
+

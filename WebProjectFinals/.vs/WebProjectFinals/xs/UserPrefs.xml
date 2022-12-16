@@ -2,14 +2,22 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="WebProjectFinals/controllers/ApplicantController.cs">
+  <MonoDevelop.Ide.ItemProperties.Library FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.UnitTest FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebProjectFinals/Views/Resume/View.cshtml">
     <Files>
-      <File FileName="WebProjectFinals/Views/Account/Register.cshtml" Line="12" Column="1" />
+      <File FileName="WebProjectFinals/Views/Account/Register.cshtml" />
       <File FileName="WebProjectFinals/Views/Account/Login.cshtml" />
       <File FileName="WebProjectFinals/Views/Applicant/index.cshtml" />
-      <File FileName="WebProjectFinals/controllers/AccountController.cs" Line="34" Column="40" />
-      <File FileName="WebProjectFinals/controllers/BaseController.cs" Line="22" Column="1" />
+      <File FileName="WebProjectFinals/controllers/AccountController.cs" />
+      <File FileName="WebProjectFinals/controllers/BaseController.cs" />
       <File FileName="WebProjectFinals/controllers/ApplicantController.cs" Line="34" Column="2" />
+      <File FileName="WebProjectFinals/Views/Resume/Delete.cshtml" Line="1" Column="1" />
+      <File FileName="WebProjectFinals/Views/Resume/Index.cshtml" Line="1" Column="1" />
+      <File FileName="WebProjectFinals/Views/Resume/Update.cshtml" Line="1" Column="1" />
+      <File FileName="WebProjectFinals/Views/Resume/View.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,8 +25,12 @@
           <Node name="WebProjectFinals" expanded="True">
             <Node name="UnitTest" expanded="True" />
             <Node name="WebProjectFinals" expanded="True">
-              <Node name="controllers" expanded="True">
-                <Node name="ApplicantController.cs" selected="True" />
+              <Node name="controllers" expanded="True" />
+              <Node name="DbContexts" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Account" expanded="True" />
+                <Node name="Resume" expanded="True" />
+                <Node name="Shared" expanded="True" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -26,10 +38,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.UnitTest FirstBuild="True" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Library FirstBuild="True" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.WebProjectFinals PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.WebProjectFinals PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
 </Properties>

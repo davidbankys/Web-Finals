@@ -1,0 +1,39 @@
+﻿@using CareerConnect.Infrastructure.Service
+@model Job
+@inject UserInformation _userInformation
+@{
+    ViewData["Title"] = "View job";
+}
+
+<div class="shadow my-2 p-3">
+    <div class="h4 fw-bold">@Model.Name</div>
+    <div>Posted date: <span class="">@Model.CreatedDate</span> by <span class="fw-bold">@Model.CreatedBy?.Name</span></div>
+    <div>Address: @Model.Address</div>
+    <div>Job Description: </div>
+    <div>@Model.Description</div>
+    <div class="text-info">Salary range: <i class="fas fa-fw fa-dollar-sign"></i> @(Model.SalaryRangeFrom ) - <i class="fas fa-fw fa-dollar-sign"></i> @(Model.SalaryRangeTo)</div>
+    <hr />
+    @if (_userInformation.IsAuthenticated && _userInformation.UserType == UserType.Employer && Model.CreatedById == _userInformation.EmployerId)
+    {
+        if (Model.ApplyingResumes.Any())
+        {
+            <div class="fw-bold mb-3"> Applicant List</div>
+            <div class="mb-2">
+                @foreach (var resume in Model.ApplyingResumes)
+                {
+                    <div class="card p-3">
+                        <div> Full name: @resume.Applicant?.FirstName @resume.Applicant?.LastName</div>
+                        <div> Email: @resume.Applicant?.Email</div>
+                        <div> Phone number: @resume.Applicant?.PhoneNumber</div>
+                        <div> Resume: @resume.Name</div>
+                        <a asp-action="View" asp-controller="Resume" asp-route-Id="@resume.Id">View Resume</a>
+                    </div>
+                }
+            </div>
+        }
+    }
+    @if (_userInformation.IsAuthenticated && _userInformation.UserType == UserType.Applicant)
+    {
+        <a class="btn btn-primary me-2" asp-controller="Job" asp-action="Apply" asp-route-Id="@Model.Id">Apply<i class="fas fa-arrow-right fa-fw ms-2"></i></a>
+    }
+</div>

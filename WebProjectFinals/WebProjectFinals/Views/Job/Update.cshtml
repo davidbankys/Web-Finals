@@ -1,0 +1,45 @@
+﻿@model UpdateJobVm
+@{
+    ViewData["Title"] = "Create/Update job";
+}
+<div class="card">
+    <div class="card-body">
+        <form asp-action="Update" method="post">
+            <div class="row g-3">
+                <div class="col-12">
+                    <label class="form-label" asp-for="Name"></label>
+                    <input class="form-control" asp-for="Name" />
+                    <span class="text-danger" asp-validation-for="Name"></span>
+                </div>
+                <div class="col-12">
+                    <label class="form-label" asp-for="Address"></label>
+                    <input class="form-control" asp-for="Address" />
+                    <span class="text-danger" asp-validation-for="Address"></span>
+                </div>
+                <div class="col-12">
+                    <label class="form-label" asp-for="Description"></label>
+                    <textarea class="form-control" asp-for="Description" rows="10"></textarea>
+                    <span class="text-danger" asp-validation-for="Description"></span>
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label" asp-for="SalaryRangeFrom"></label>
+                    <input class="form-control" asp-for="SalaryRangeFrom" />
+                    <span class="text-danger" asp-validation-for="SalaryRangeFrom"></span>
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label" asp-for="SalaryRangeTo"></label>
+                    <input class="form-control" asp-for="SalaryRangeTo" />
+                    <span class="text-danger" asp-validation-for="SalaryRangeTo"></span>
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label" asp-for="ExpiryDate"></label>
+                    <input class="form-control" asp-for="ExpiryDate" />
+                    <span class="text-danger" asp-validation-for="ExpiryDate"></span>
+                </div>
+                <div class="col-md-3">
+                    <button class="btn btn-primary w-100">Save</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

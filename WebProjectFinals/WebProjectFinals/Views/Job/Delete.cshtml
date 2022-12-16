@@ -1,0 +1,12 @@
+﻿@model Job
+@{
+    ViewData["Title"] = "Delete Job";
+}
+<div>
+    <div class="my-2">  
+        Are you sure want to delete job <span class="fw-bold text-primary">@Model.Name</span>?
+    </div>
+    <form asp-action="DeleteConfirmed" asp-controller="Job" asp-route-Id="@Model.Id">
+        <button class="btn btn-danger" type="submit"> Confirm delete </button>
+    </form>
+</div>

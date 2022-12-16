@@ -1,0 +1,27 @@
+﻿@model ResumesVm
+
+@{
+    ViewData["Title"] = "Resumes";
+}
+
+<div class="card my-3">
+    <div class="card-body">
+        @if (Model.Resumes.Any())
+        {
+            foreach (var resume in Model.Resumes)
+            {
+                <div class="shadow-sm mb-2 p-3">
+                    <h5 class="mb-1">@resume.Name</h5>
+                    <div>@resume.CreatedDate</div>
+                    <a class="mb-2 me-2" asp-action="View" asp-route-Id="@resume.Id"><i class="fas fa-fw fa-eye me-2"></i>View</a>
+                    <a class="mb-2 me-2" asp-action="Update" asp-route-Id="@resume.Id"><i class="fas fa-fw fa-edit me-2"></i>Update</a>
+                    <a class="text-danger mb-2" asp-action="Delete" asp-route-Id="@resume.Id"><i class="fas fa-fw fa-trash me-2"></i>Delete</a>
+                </div>
+            }
+        }
+        else
+        {
+        }
+        <div> <a class="btn btn-outline-primary"  asp-action="Create"><i class="fas fa-fw fa-upload me-2"></i> Upload new resume</a> </div>
+    </div>
+</div>

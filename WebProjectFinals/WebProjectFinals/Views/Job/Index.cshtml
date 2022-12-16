@@ -1,0 +1,43 @@
+﻿@model JobsVm
+@{
+    ViewData["Title"] = "Jobs list";
+}
+<div class="card border-0 shadow-sm rounded-0">
+    <form asp-action="Index" method="get">
+        <div class="card-body">
+            <div class="row gy-2 gx-3">
+                <div class="col-md-6">
+                    <label class="form-label" asp-for="Name"></label>
+                    <input class="form-control" asp-for="Name" />
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label" asp-for="Address"></label>
+                    <input class="form-control" asp-for="Address" />
+                </div>
+                <div class="col-md-3">
+                    <label class="form-label" asp-for="Salary"></label>
+                    <input class="form-control" asp-for="Salary" />
+                </div>
+                <div class="col-md-3">
+                    <label class="invisible form-label d-block" asp-for="Salary"></label>
+                    <button class="btn btn-primary" type="submit"> <i class="fas fa-search fa-fw me-2"></i> Search Jobs</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<div class="card my-3 border-0 shadow-sm rounded-0">
+    <div class="card-body">
+        @if (Model.Jobs.Any())
+        {
+            foreach (var job in Model.Jobs)
+            {
+                <partial name="_Job" Model="job"/>
+            }
+        }
+        else
+        {
+            <div>No job found!</div>
+        }
+    </div>
+</div>
