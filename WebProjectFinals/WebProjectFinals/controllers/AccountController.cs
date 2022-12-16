@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebProjectFinals.controllers
 {
-    public class AccountController : Controller
+    public class AccountController : BaseController
     {
         // GET: /<controller>/
         private readonly AuthenticationService _authenticationService;
