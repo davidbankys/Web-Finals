@@ -1,0 +1,97 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CareerConnect
+build_property.RootNamespace = CareerConnect
+build_property.ProjectDir = /Users/rushabhshah/Downloads/CareerConnect-Web-main 3/CareerConnect/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = /Users/rushabhshah/Downloads/CareerConnect-Web-main 3/CareerConnect
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/rushabhshah/Downloads/CareerConnect-Web-main 3/CareerConnect/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rushabhshah/Downloads/CareerConnect-Web-main 3/CareerConnect/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rushabhshah/Downloads/CareerConnect-Web-main 3/CareerConnect/Views/Applicant/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXBwbGljYW50L0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rushabhshah/Downloads/CareerConnect-Web-main 3/CareerConnect/Views/Employer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wbG95ZXIvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rushabhshah/Downloads/CareerConnect-Web-main 3/CareerConnect/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rushabhshah/Downloads/CareerConnect-Web-main 3/CareerConnect/Views/Job/Apply.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSm9iL0FwcGx5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rushabhshah/Downloads/CareerConnect-Web-main 3/CareerConnect/Views/Job/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSm9iL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rushabhshah/Downloads/CareerConnect-Web-main 3/CareerConnect/Views/Job/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSm9iL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rushabhshah/Downloads/CareerConnect-Web-main 3/CareerConnect/Views/Job/Manage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSm9iL01hbmFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rushabhshah/Downloads/CareerConnect-Web-main 3/CareerConnect/Views/Job/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSm9iL1VwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rushabhshah/Downloads/CareerConnect-Web-main 3/CareerConnect/Views/Job/View.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSm9iL1ZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rushabhshah/Downloads/CareerConnect-Web-main 3/CareerConnect/Views/Job/_Job.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSm9iL19Kb2IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rushabhshah/Downloads/CareerConnect-Web-main 3/CareerConnect/Views/Resume/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzdW1lL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rushabhshah/Downloads/CareerConnect-Web-main 3/CareerConnect/Views/Resume/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzdW1lL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rushabhshah/Downloads/CareerConnect-Web-main 3/CareerConnect/Views/Resume/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzdW1lL1VwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rushabhshah/Downloads/CareerConnect-Web-main 3/CareerConnect/Views/Resume/View.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzdW1lL1ZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rushabhshah/Downloads/CareerConnect-Web-main 3/CareerConnect/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rushabhshah/Downloads/CareerConnect-Web-main 3/CareerConnect/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rushabhshah/Downloads/CareerConnect-Web-main 3/CareerConnect/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rushabhshah/Downloads/CareerConnect-Web-main 3/CareerConnect/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-4jzp8wvrt4

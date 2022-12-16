@@ -1,0 +1,129 @@
+﻿@model RegisterVm
+@{
+    ViewData["Title"] = "Register";
+}
+
+<div class="card border-0 shadow-sm rounded-0">
+    <div class="card-header text-center h6 text-uppercase">Fill your information to the form below to start Career Connect !</div>
+    <div class="card-body">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="applicant-register-tab" data-bs-toggle="tab" data-bs-target="#applicant" type="button" role="tab" aria-controls="applicant" aria-selected="true">Register as an applicant</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="employer-register-tab" data-bs-toggle="tab" data-bs-target="#employer" type="button" role="tab" aria-controls="employer" aria-selected="false">Register as an employer</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="register-tab-content">
+            <div class="tab-pane fade show active py-3" id="applicant" role="tabpanel" aria-labelledby="applicant-register-tab">
+                <form asp-action="Register" method="post">
+                    <div class="row">
+                        <div class="col-5 my-auto px-5">
+                            <div class="text-center h4 text-primary"> CREATE YOUR ACCOUNT, IT'S ALWAYS FREE !</div>
+                        </div>
+                        <div class="col-7">
+                            <div class="row g-3">
+                                <div class="col-6">
+                                    <label class="form-label" asp-for="FirstName"></label>
+                                    <input class="form-control" asp-for="FirstName" />
+                                    <span class="text-danger" asp-validation-for="FirstName"></span>
+                                </div>
+                                <div class="col-6">
+                                    <label class="form-label" asp-for="LastName"></label>
+                                    <input class="form-control" asp-for="LastName" />
+                                    <span class="text-danger" asp-validation-for="LastName"></span>
+                                </div>
+                                <div class="col-6">
+                                    <label class="form-label" asp-for="Email"></label>
+                                    <input class="form-control" asp-for="Email" />
+                                    <span class="text-danger" asp-validation-for="Email"></span>
+                                </div>
+                                <div class="col-6">
+                                    <label class="form-label" asp-for="PhoneNumber"></label>
+                                    <input class="form-control" asp-for="PhoneNumber" />
+                                    <span class="text-danger" asp-validation-for="PhoneNumber"></span>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label" asp-for="Address"></label>
+                                    <input class="form-control" asp-for="Address" />
+                                    <span class="text-danger" asp-validation-for="Address"></span>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label" asp-for="Description"></label>
+                                    <textarea class="form-control" asp-for="Description"></textarea>
+                                    <span class="text-danger" asp-validation-for="Description"></span>
+                                </div>
+                                <div class="col-6">
+                                    <label class="form-label" asp-for="Password"></label>
+                                    <input class="form-control" asp-for="Password" />
+                                    <span class="text-danger" asp-validation-for="Password"></span>
+                                </div>
+                                <div class="col-6">
+                                    <label class="form-label" asp-for="ConfirmPassword"></label>
+                                    <input class="form-control" asp-for="ConfirmPassword" />
+                                    <span class="text-danger" asp-validation-for="ConfirmPassword"></span>
+                                </div>
+                                <input type="hidden" asp-for="RegisterAs" value="@RegisterAs.Applicant" />
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary w-100">Register</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="tab-pane fade py-3" id="employer" role="tabpanel" aria-labelledby="employer-register-tab">
+                <form asp-action="Register" method="post">
+                     <div class="row">
+                         <div class="col-5 my-auto px-5">
+                             <div class="text-center h4 text-primary"> CREATE YOUR ACCOUNT, IT'S ALWAYS FREE !</div>
+                         </div>
+                        <div class="col-7">
+                            <div class="row g-3">
+                                <div class="col-12">
+                                    <label class="form-label" asp-for="Name"></label>
+                                    <input class="form-control" asp-for="Name" />
+                                    <span class="text-danger" asp-validation-for="Name"></span>
+                                </div>
+                                <div class="col-6">
+                                    <label class="form-label" asp-for="Email"></label>
+                                    <input class="form-control" asp-for="Email" />
+                                    <span class="text-danger" asp-validation-for="Email"></span>
+                                </div>
+                                <div class="col-6">
+                                    <label class="form-label" asp-for="PhoneNumber"></label>
+                                    <input class="form-control" asp-for="PhoneNumber" />
+                                    <span class="text-danger" asp-validation-for="PhoneNumber"></span>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label" asp-for="Address"></label>
+                                    <input class="form-control" asp-for="Address" />
+                                    <span class="text-danger" asp-validation-for="Address"></span>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label" asp-for="Description"></label>
+                                    <textarea class="form-control" asp-for="Description"></textarea>
+                                    <span class="text-danger" asp-validation-for="Description"></span>
+                                </div>
+                                <div class="col-6">
+                                    <label class="form-label" asp-for="Password"></label>
+                                    <input class="form-control" asp-for="Password" />
+                                    <span class="text-danger" asp-validation-for="Password"></span>
+                                </div>
+                                <div class="col-6">
+                                    <label class="form-label" asp-for="ConfirmPassword"></label>
+                                    <input class="form-control" asp-for="ConfirmPassword" />
+                                    <span class="text-danger" asp-validation-for="ConfirmPassword"></span>
+                                </div>
+                                <input type="hidden" asp-for="RegisterAs" value="@RegisterAs.Employer" />
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary w-100">Register</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
