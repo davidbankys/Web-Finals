@@ -1,6 +1,9 @@
 ﻿<Properties StartupConfiguration="{A5D2512F-A953-4215-8DE4-3CC8B6790AA4}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Library FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.WebProjectFinals PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" FirstBuild="True" />
   <MonoDevelop.Ide.Workbench ActiveDocument="WebProjectFinals/Views/Account/Register.cshtml">
     <Files>
       <File FileName="WebProjectFinals/Views/Account/Register.cshtml" Line="1" Column="1" />
@@ -12,7 +15,9 @@
           <Node name="WebProjectFinals" expanded="True">
             <Node name="WebProjectFinals" expanded="True">
               <Node name="Views" expanded="True">
-                <Node name="Account" expanded="True" />
+                <Node name="Account" expanded="True">
+                  <Node name="Register.cshtml" selected="True" />
+                </Node>
               </Node>
               <Node name="wwwroot" expanded="True" />
             </Node>
@@ -21,11 +26,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.WebProjectFinals PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" FirstBuild="True" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.UnitTest FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.UnitTest FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.Library FirstBuild="True" />
 </Properties>
